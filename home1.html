@@ -1,0 +1,151 @@
+<body style="background-color:rgb(255,204,0);">
+    <header class="header">
+        <div class="left-header">
+            <a> <img class="chorecheetahlogo6" src=chorecheetalogo6.png></img> </a>
+            <a href="">Chore Cheeta</a>
+        </div>
+
+        <nav class="nav-links">
+            <a href="">Order</a>
+            <a href="">Earn</a>
+            <a href="">About</a>
+            <a href="">Contact</a>
+        </nav>
+
+        <div class="right-header">
+            <button href="" class="signupbtn">Sign Up</button>
+            <button href="" class="loginbtn">Log In</button>
+        </div>
+        
+    </header>
+
+    <main>
+        Complete chores,
+        straight to your door!
+        <button class="explore">Explore</button>
+     </main>
+
+    <footer>
+
+     </footer>
+ </body>
+
+
+<style>
+
+ .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1px 45px;
+        background-color: rgb(255,204,0);
+        position: sticky;
+        font-family:helvetica;
+        font-weight: bold;
+        top: 0;
+    }
+
+    .left-header {
+        display:flex;
+        gap:20px;
+        align-items: center;
+        cursor: pointer;
+    }
+
+    .left-header a {
+        text-decoration: none;
+        color: rgb(255,255,255);
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    .chorecheetahlogo6 {
+        height:80px;
+        width:80px;
+    }
+
+    .nav-links {
+        display:flex;
+        gap: 20px;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: rgb(255,255,255);
+        font-weight: bold;
+        font-size: 20px
+    }
+
+    @media (max-width: 768px) {
+        .nav-links {
+            display:none;
+        }
+    }
+
+    .right-header {
+        display: flex;
+        gap: 15px;
+    }
+
+    .signupbtn {
+        background-color:rgb(255, 0, 0);
+        color:rgb(255,255,255);
+        border: none;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-right:12px;
+        padding-left:12px;
+        border-radius:1000px;
+        transition: opacity 0.1s;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .signupbtn:hover {
+        box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.15)
+    }
+
+    .signupbtn:active {
+        opacity: 0.75;
+    }
+
+    .loginbtn {
+        background-color:white;
+        color: rgb(0, 0, 0);
+        border: none;
+        transition: opacity 0.1s, background-color 0.1s, color 0.1s;
+        padding-top:10px;
+        padding-bottom:10px;
+        padding-right:12px;
+        padding-left:12px;
+        border-radius:1000px;
+        font-size: 20px;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    .loginbtn:hover {
+        box-shadow: 0px 5px 13px rgba(0, 0, 0, 0.15)
+    }
+
+    .loginbtn:active {
+        opacity: 0.9;
+    }
+
+    .explore {
+
+    }
+
+    
+    
+   
+
+    body {
+        margin: 0;
+    }
+
+    
+
+    
+</style>
